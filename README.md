@@ -9,10 +9,10 @@ This is a command line node program for downloading Youtube video as MP3 || MP4 
 - `npm install fs youtube-dl fluent-ffmpeg`
 
 ## Install ffmpeg for Transfer Media Format
-* Install in offical website
+### Install in offical website
 - download link : `https://www.ffmpeg.org/download.html` OR
 
-* Install with homebrew
+### Install with homebrew
 - brew install libvpx
 - brew install ffmpeg --with-libvpx
  
@@ -26,14 +26,14 @@ This is a command line node program for downloading Youtube video as MP3 || MP4 
 	title : [title]
 };
 
-* [youtube video code] 
+2.1 [youtube video code] 
 - is the value in query param v
-- eg . -zHVW7Zy_vg for https://www.youtube.com/watch?v=-zHVW7Zy_vg
+- eg . `-zHVW7Zy_vg` for https://www.youtube.com/watch?v=-zHVW7Zy_vg
 
-* [donwload as]
+2.2 [donwload as]
 - is the target downloading format
 - only support `MP3` or `MP4`
 
-* [title]
+2.3 [title]
 - any valid filename for os
 - eg. "enjoyThisProgram"
