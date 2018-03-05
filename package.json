@@ -1,0 +1,16 @@
+{
+	"name"			: "easyYoutubeDownload",
+	"author"		: "Sam Ho",
+	"description"	: "Easy method to download Youtube video as MP4 or MP3 format. Used for academic and testing purpose",
+	"version"		: "0.1.0",
+	"license"		: "AFL-1.1",
+	"repository"	: { 
+			"type"	: "git",
+			"url"	: "https://github.com/thisishkf/downloadYoutube.git"
+	},
+	"dependencies"	: {
+	},
+	"scripts"		: {
+		"start": "node youtubedl.js"
+	}
+}
