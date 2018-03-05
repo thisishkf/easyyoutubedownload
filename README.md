@@ -2,6 +2,9 @@ This is a command line node program for downloading Youtube video as MP3 || MP4 
 
 # Before Use
 ## Install Node.js
+As this is a node program, Node.js must be included.
+Please Install the [Latest Current Version] for Node.js
+
 * Install from offical website
 - download link : `https://nodejs.org/en/download/`
 
@@ -10,7 +13,7 @@ This is a command line node program for downloading Youtube video as MP3 || MP4 
 
 ## Install ffmpeg for Transfer Media Format
 ### Install in offical website
-- download link : `https://www.ffmpeg.org/download.html` OR
+- download link : `https://www.ffmpeg.org/download.html`
 
 ### Install with homebrew
 - brew install libvpx
@@ -37,3 +40,6 @@ This is a command line node program for downloading Youtube video as MP3 || MP4 
 2.3 [title]
 - any valid filename for os
 - eg. "enjoyThisProgram"
+
+# Run the program
+Run `node youtubedl.js` OR `npm start` to run the program.
