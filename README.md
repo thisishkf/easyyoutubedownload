@@ -10,7 +10,7 @@ Please Install the [Latest Current Version] for Node.js
 - download link : `https://nodejs.org/en/download/`
 
 ## Install Node Dependencies
-- `npm install fs youtube-dl fluent-ffmpeg`
+- `npm install fs youtube-dl fluent-ffmpeg ffmetadata`
 
 ## Install ffmpeg for Transfer Media Format
 ### Install in offical website
