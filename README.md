@@ -1,3 +1,6 @@
+#NPM repository
+https://www.npmjs.com/package/easyyoutubedownload
+
 # downloadYoutube
 This is a command line node program for downloading Youtube video as MP3 || MP4 format. Enjoy. :)
 
