@@ -24,8 +24,7 @@ Please Install the [Latest Current Version] for Node.js
 - brew install ffmpeg --with-libvpx
  
 # Config your own program
-1. Change the download destination 
-- const filePath = "./files/";
+1. Change the download destination by calling setDownloadPath(str, str)
 2. Fill in the target Youtube video inforamtion 
 - let youtube = {
 	link : [youtube video code] ,
