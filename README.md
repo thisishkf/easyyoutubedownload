@@ -1,36 +1,46 @@
-# NPM repository
-https://www.npmjs.com/package/easyyoutubedownload
-
-# downloadYoutube
+# easyyoutubedownload
 This is a command line node program for downloading Youtube video as MP3 || MP4 format. Enjoy. :)
 
-# Before Use
-## Install Node.js
+## Github Repository
+https://github.com/thisishkf/easyyoutubedownload
+## NPM repository
+https://www.npmjs.com/package/easyyoutubedownload
+
+## Before Use
+### Install Node.js
 As this is a node program, Node.js must be included.
 Please Install the [Latest Current Version] for Node.js
 
 * Install from offical website
 - download link : `https://nodejs.org/en/download/`
 
-## Install Node Dependencies
+### Install Node Dependencies
 - `npm install fs youtube-dl fluent-ffmpeg ffmetadata`
 
-## Install ffmpeg for Transfer Media Format
-### Install in offical website
+### Install ffmpeg for Transfer Media Format
+#### Install in offical website
 - download link : `https://www.ffmpeg.org/download.html`
 
-### Install with homebrew
+#### Install with homebrew
 - brew install libvpx
 - brew install ffmpeg --with-libvpx
  
-# Config your own program
+### Config your own program
 1. Change the download destination by calling setDownloadPath(str, str)
+```javascript	
+	const easyyoutubedownload = require('easyyoutubedownload');
+	easyyoutubedownload.setDownloadPath("mp3", __dirname + "/files/mp3");
+	easyyoutubedownload.setDownloadPath("mp4", __dirname + "/files/mp4");
+```
 2. Fill in the target Youtube video inforamtion 
-- let youtube = {
+```javascript
+let options = {
 	link : [youtube video code] ,
 	type: [donwload as],
-	title : [title]
+	title : [title],
+	artist: [artist]
 };
+```
 
 2.1 [youtube video code] 
 - is the value in query param v
@@ -42,7 +52,9 @@ Please Install the [Latest Current Version] for Node.js
 
 2.3 [title]
 - any valid filename for os
-- eg. "enjoyThisProgram"
+- eg. `enjoyThisProgram`
 
-# Run the program
-Run `node youtubedl.js` OR `npm start` to run the program.
+2.4 [artist]
+- ang valid string for metadata
+- eg. `Thisishkf`
+
