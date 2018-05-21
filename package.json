@@ -3,7 +3,7 @@
 	"author": "Sam Ho <hkf1113@gmail.com>",
 	"description": "Easy method to download Youtube video as MP4 or MP3 format. Enjoy.^^",
 	"version": "1.0.2",
-	"license": "ISC",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thisishkf/downloadYoutube.git"
